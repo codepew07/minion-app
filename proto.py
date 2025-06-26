@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser
 import time
 st.title("Welcome to Gru's lair" )
 answer = st.text_input("Minions, should we steal the moon?!! (yes/no): ")
@@ -14,6 +13,7 @@ if answer: # Only process logic once something is typed
         time.sleep(2)
         with st.spinner("Here's a surprise for you..."):
          time.sleep(2)
-         webbrowser.open("https://youtu.be/qxeokP0n6V0?si=Q6j1raRCwvQctLfz")
+         st.markdown("https://youtu.be/qxeokP0n6V0?si=Q6j1raRCwvQctLfz"),
+unsafe_allow_html=True
        
        
