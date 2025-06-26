@@ -11,9 +11,8 @@ if answer: # Only process logic once something is typed
   else:
         st.info("Well, aren't you quite the annoying one?") 
         time.sleep(2)
-        with st.spinner("Here's a surprise for you..."):
+        with st.spinner("Here's a surprise for you...https://youtu.be/qxeokP0n6V0?si=Q6j1raRCwvQctLfz"):
          time.sleep(2)
-         st.markdown("https://youtu.be/qxeokP0n6V0?si=Q6j1raRCwvQctLfz"),
-unsafe_allow_html=True
+         
        
        
